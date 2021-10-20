@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <declare-styleable name="LoadingButton">
-<!--   TODO: create custom attributes for the view-->
+        <attr name="backgroundDefault" format="color" />
+        <attr name="backgroundLoading" format="color" />
+        <attr name="textDefault" format="string" />
+        <attr name="textLoading" format="string" />
+        <attr name="android:textColor" format="color"/>
     </declare-styleable>
+
 </resources>
